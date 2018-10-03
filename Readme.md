@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Ilya Kotenko](https://up.htmlacademy.ru/adaptive/15/user/171503).
-* Наставник: `Гоша Егорян` (https://up.htmlacademy.ru/adaptive/15/user/85633).
+* Наставник: [Гоша Егорян](https://up.htmlacademy.ru/adaptive/15/user/85633).
 
 ---
 
