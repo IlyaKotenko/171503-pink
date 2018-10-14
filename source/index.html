@@ -3,10 +3,123 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Пинк</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=cyrillic" rel="stylesheet">
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Профессиональный HTML и CSS</a>», уровень 2.</p>
-
+    <header class="header">
+      <nav class="main-nav">
+        <a class="main-nav__logo">
+          <img class="main-nav__logo-image" src="http://placehold.it/150x100" alt="Pink - site logo">
+        </a>
+        <button class="main-nav__button" type="button">Открыть меню</button>
+        <ul class="main-nav__list menu-list">
+          <li class="menu-list__item">Главная</li>
+          <li class="menu-list__item"><a href="photo.html">Фотографии</a></li>
+          <li class="menu-list__item"><a href="form.html">Конкурс</a></li>
+          <li class="menu-list__item"><a href="https://up.htmlacademy.ru/adaptive/15">HTML Academy</a></li>
+        </ul>
+      </nav>
+      <img class="header__phone-img" alt="Pink в телефоне" src="http://placehold.it/150x100">
+      <div class="download-app">
+        <a class="download-app__button link-buttons" href="https://www.apple.com/ru/itunes/">Скачать приложение</a>
+        <ul class="download-app__list icons-list">
+          <li class="icons-list__item"><img src="http://placehold.it/150x100" alt="iOS"></li>
+          <li class="icons-list__item"><img src="http://placehold.it/150x100" alt="Android"></li>
+          <li class="icons-list__item"><img src="http://placehold.it/150x100" alt="WindowsPhone"></li>
+        </ul>
+        <p class="download-app__desc">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+      </div>
+    </header>
+    <main class="index-main">
+      <h1 class="visually-hidden">Pink - приложение-социальная сеть, где можно делиться фотографиями, редактировать и накладывать различные эффекты.</h1>
+      <section class="advantages">
+        <header class="advantages__header">
+          <h2 class="visually-hidden">Функции и приемущества приложения Pink.</h2>
+          <p class="advantages__intro">Устали от серости мегаполиса?<br>Нам есть, что вам предложить!</p>
+        </header>
+        <div class="advantages__list-wrapper">
+          <ul class="advantages__list">
+            <li class="advantages__item"><h3 class="advantages__title">Поднимает настроение</h3><p class="advantages__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p></li>
+            <li class="advantages__item"><h3 class="advantages__title">Меняет мир вокруг</h3><p class="advantages__description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p></li>
+            <li class="advantages__item"><h3 class="advantages__title">Заводит новых друзей</h3><p class="advantages__description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p></li>
+          </ul>
+        </div>
+      </section>
+      <section class="reviews">
+        <h2 class="visually-hidden">Отзывы о приложении Pink</h2>
+        <div class="reviews__wrapper slider">
+          <blockquote class="reviews__item slider__item">
+            <cite class="reviews__author-name">Николай Петров</cite>
+            <p class="reviwes__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+          </blockquote>
+          <blockquote class="reviews__item slider__item">
+            <cite class="reviews__author-name">Николай Петров</cite>
+            <p class="reviwes__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+          </blockquote>
+          <blockquote class="reviews__item slider__item">
+            <cite class="reviews__author-name">Николай Петров</cite>
+            <p class="reviwes__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+          </blockquote>
+          <div class="reviews__toggles slider__toggles">
+            <button class="slider__toggle" type="button">1</button>
+            <button class="slider__toggle" type="button">2</button>
+            <button class="slider__toggle" type="button">3</button>
+          </div>
+        </div>
+      </section>
+      <section class="plans">
+        <div class="plans__wrapper slider">
+          <h2 class="visually-hidden">Тарифные планы</h2>
+          <ul class="plans__list slider__list">
+            <li class="plans__item slider__item hit-plan">
+              <h3 class="plans__title">Стандарт</h3>
+              <span class="plans__price">3,99 USD</span>
+              <ul class="plan-features">
+                <li class="plan-features__item"><span class="plan-features__name">Розовый фильтр</span><span class="plan-features__flag available"></span></li>
+                <li class="plan-features__item"><span class="plan-features__name">Смайлики</span><span class="plan-features__flag not-available"></span></li>
+                <li class="plan-features__item"><span class="plan-features__name">Комментарии</span><span class="plan-features__flag not-available"></span></li>
+              </ul>
+            </li>
+            <li class="plans__item slider__item hit-plan">
+              <h3 class="plans__title">Стандарт</h3>
+              <span class="plans__price">3,99 USD</span>
+              <ul class="plan-features">
+                <li class="plan-features__item"><span class="plan-features__name">Розовый фильтр</span><span class="plan-features__flag available"></span></li>
+                <li class="plan-features__item"><span class="plan-features__name">Смайлики</span><span class="plan-features__flag available"></span></li>
+                <li class="plan-features__item"><span class="plan-features__name">Комментарии</span><span class="plan-features__flag not-available"></span></li>
+              </ul>
+            </li>
+            <li class="plans__item slider__item hit-plan">
+              <h3 class="plans__title">Стандарт</h3>
+              <span class="plans__price">3,99 USD</span>
+              <ul class="plan-features">
+                <li class="plan-features__item"><span class="plan-features__name">Розовый фильтр</span><span class="plan-features__flag available"></span></li>
+                <li class="plan-features__item"><span class="plan-features__name">Смайлики</span><span class="plan-features__flag available"></span></li>
+                <li class="plan-features__item"><span class="plan-features__name">Комментарии</span><span class="plan-features__flag available"></span></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="plans__toggles slider__toggles">
+            <button class="slider__toggle" type="button">1</button>
+            <button class="slider__toggle" type="button">2</button>
+            <button class="slider__toggle" type="button">3</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <section class="contacts">
+        <h2 class="visually-hidden">Наши контакты и схема проезда</h2>
+        <div class="contacts__ditails">
+          <p class="contacts__intro">Остались вопросы?<br>Свяжитесь с нами!</p>
+          <ul class="contacts__list">
+            <li class="contacts__items">Звоните: <span class="contacts__phone">+7 (812) 555-66-66</span></li>
+            <li class="contacts__items">Пишите: <span class="contacts__email">mail@htmlacademy.ru</span></li>
+            <li class="contacts__items">Приезжайте в гости: <span class="contacts__adress">ул. Большая Конюшенная, 19/8</span></li>
+          </ul>
+        </div>
+        <div class="contacts__map"></div>
+      </section>
+    </footer>
   </body>
 </html>

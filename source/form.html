@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Пинк</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="main-nav">
+        <a class="main-nav__logo">
+          <img class="main-nav__logo-image" src="http://placehold.it/150x100" alt="Pink - site logo">
+        </a>
+        <button class="main-nav__button" type="button">Открыть меню</button>
+        <ul class="main-nav__list menu-list">
+          <li class="menu-list__item"><a href="index.html">Главная</a></li>
+          <li class="menu-list__item"><a href="photo.html">Фотографии</a></li>
+          <li class="menu-list__item">Конкурс</li>
+          <li class="menu-list__item"><a href="https://up.htmlacademy.ru/adaptive/15">HTML Academy</a></li>
+        </ul>
+      </nav>
+      <h1 class="header__title">Конкурс на самое безбашенное путешествие с Пинк</h1>
+    </header>
+    <main class="form-main">
+      <section class="competition">
+        <h2 class="visually-hidden">Заявка на участие в конкурсе</h2>
+        <p class="competition__subtitle">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните форму ниже:</p>
+        <form class="competition__form request-form">
+          <fieldset class="request-form__fieldset">
+            <label class="request-form__label" for="surname">Фамилия</label>
+            <input class="request-form__input" type="text" id="surname" placeholder="Укажите фамилию*" required>
+            <label class="request-form__label" for="name">Имя</label>
+            <input class="request-form__input" type="text" id="name" placeholder="Укажите ваше имя*" required>
+            <label class="request-form__label" for="middle-name">Отчество</label>
+            <input class="request-form__input" type="text" id="middle-name" placeholder="Ну и отчество тоже">
+          </fieldset>
+          <fieldset class="request-form__fieldset">
+            <legend class="request-form__legend">Ваши безбашенные достижения в путешествии</legend>
+            <input class="visually-hidden" type="checkbox" id="shark" value="shark-selfie" checked>
+            <label for="shark">Сделал селфи с акулой</label>
+            <input class="visually-hidden" type="checkbox" id="beach" value="burned" checked>
+            <label for="beach">Обгорел на пляже</label>
+            <input class="visually-hidden" type="checkbox" id="norris" value="chuck-norris">
+            <label for="norris">Видел Чака Норриса</label>
+            <input class="visually-hidden" type="checkbox" id="souvenir" value="souvenir-bought">
+            <label for="souvenir">Накупил сувениров</label>
+            <input class="visually-hidden" type="checkbox" id="tower" value="keep-tower" checked>
+            <label for="tower">Удержал башню</label>
+            <input class="visually-hidden" type="checkbox" id="hotel" value="crash-hotel">
+            <label for="hotel">Разгромил отель</label>
+          </fieldset>
+          <fieldset class="request-form__fieldset">
+            <label class="request-form__label" for="phone">Номер телефона</label>
+            <input class="request-form__input" type="tel" id="phone" placeholder="Номер, пожалуйста">
+            <label class="request-form__label" for="e-mail">Адрес почты</label>
+            <input class="request-form__input" type="email" id="e-mail" placeholder="Введите почту*" required>
+          </fieldset>
+          <fieldset class="request-form__fieldset">
+            <legend class="request-form__legend">С каким приложением путешествовали?</legend>
+            <input class="visually-hidden" type="radio" id="ios" checked>
+            <label class="request-form__label" for="ios">Pink для iOS</label>
+            <input class="visually-hidden" type="radio" id="android" checked>
+            <label class="request-form__label" for="android">Pink на Android</label>
+            <input class="visually-hidden" type="radio" id="windows" checked>
+            <label class="request-form__label" for="windows">Windows Phone</label>
+          </fieldset>
+          <fieldset class="request-form__fieldset">
+            <legend class="request-form__legend">Опишите свои эмоции</legend>
+            <textarea name="photo-description" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+          </fieldset>
+          <button class="request-form__button" type="submit">Отправить форму</button>
+        </form>
+        <p class="competition_subtext"><sup>*</sup>-обязательные поля</p>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <div class="footer__logo"></div>
+        <ul class="footer__socials">
+          <li class="footer__socials-item"><a href="#" aria-label="twitter"></a></li>
+          <li class="footer__socials-item"><a href="#" aria-label="facebook"></a></li>
+          <li class="footer__socials-item"><a href="#" aria-label="YouTube"></a></li>
+        </ul>
+        <div class="footer__developed"></div>
+      </div>
+    </footer>
+  </body>
+</html>
