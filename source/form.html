@@ -21,10 +21,9 @@
       <h1 class="header__title">Конкурс на самое безбашенное путешествие с Пинк</h1>
     </header>
     <main class="form-main">
-      <section class="competition">
-        <form class="competition__form request-form" action="https://echo.htmlacademy.ru" method="get">
+      <form class="request-form" action="https://echo.htmlacademy.ru" method="get">
         <h2 class="visually-hidden">Заявка на участие в конкурсе</h2>
-        <p class="competition__subtitle">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните форму ниже:</p>
+        <p class="request-form__subtitle">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните форму ниже:</p>
           <div class="request-form__fieldset">
             <div class="surname-field">
               <input class="request-form__input" type="text" id="surname" name="user-surname" placeholder="Укажите фамилию*" required>
@@ -42,18 +41,30 @@
           <div class="request-form__fieldset">
             <div class="trip-achievements">
               <p class="request-form__legend">Ваши безбашенные достижения в путешествии</p>
-              <input class="visually-hidden" type="checkbox" id="shark" value="shark-selfie" checked>
-              <label for="shark">Сделал селфи с акулой</label>
-              <input class="visually-hidden" type="checkbox" id="beach" value="burned" checked>
-              <label for="beach">Обгорел на пляже</label>
-              <input class="visually-hidden" type="checkbox" id="norris" value="chuck-norris">
-              <label for="norris">Видел Чака Норриса</label>
-              <input class="visually-hidden" type="checkbox" id="souvenir" value="souvenir-bought">
-              <label for="souvenir">Накупил сувениров</label>
-              <input class="visually-hidden" type="checkbox" id="tower" value="keep-tower" checked>
-              <label for="tower">Удержал башню</label>
-              <input class="visually-hidden" type="checkbox" id="hotel" value="crash-hotel">
-              <label for="hotel">Разгромил отель</label>
+              <div class="trip-achievements__checkbox">
+                <input class="visually-hidden" type="checkbox" id="shark" value="shark-selfie" checked>
+                <label for="shark">Сделал селфи с акулой</label>
+              </div>
+              <div class="trip-achievements__checkbox">
+                <input class="visually-hidden" type="checkbox" id="beach" value="burned" checked>
+                <label for="beach">Обгорел на пляже</label>
+              </div>
+              <div class="trip-achievements__checkbox">
+                <input class="visually-hidden" type="checkbox" id="norris" value="chuck-norris">
+                <label for="norris">Видел Чака Норриса</label>
+              </div>
+              <div class="trip-achievements__checkbox">
+                <input class="visually-hidden" type="checkbox" id="souvenir" value="souvenir-bought">
+                <label for="souvenir">Накупил сувениров</label>
+              </div>
+              <div class="trip-achievements__checkbox">
+                <input class="visually-hidden" type="checkbox" id="tower" value="keep-tower" checked>
+                <label for="tower">Удержал башню</label>
+              </div>
+              <div class="trip-achievements__checkbox">
+                <input class="visually-hidden" type="checkbox" id="hotel" value="crash-hotel">
+                <label for="hotel">Разгромил отель</label>
+              </div>
             </div>
           </div>
           <div class="request-form__fieldset">
@@ -84,9 +95,8 @@
             </div>
           </div>
           <button class="request-form__button" type="submit">Отправить форму</button>
-          <p class="competition_subtext"><sup>*</sup>-обязательные поля</p>
+          <p class="request-form__subtext"><sup>*</sup>-обязательные поля</p>
         </form>
-      </section>
     </main>
     <footer class="footer">
       <div class="footer__wrapper">
